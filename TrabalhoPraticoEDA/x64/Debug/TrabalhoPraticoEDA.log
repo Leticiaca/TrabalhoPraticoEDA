@@ -1,0 +1,9 @@
+﻿  Origem.c
+C:\2ºSemestre\Estrutura de Dados\Treino\TrabalhoPratico\TrabalhoPraticoEDA\TrabalhoPraticoEDA\Origem.c(48,25): warning C4101: 'aux2': variável local não referenciada
+C:\2ºSemestre\Estrutura de Dados\Treino\TrabalhoPratico\TrabalhoPraticoEDA\TrabalhoPraticoEDA\Origem.c(177,30): warning C4474: 'printf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\2ºSemestre\Estrutura de Dados\Treino\TrabalhoPratico\TrabalhoPraticoEDA\TrabalhoPraticoEDA\Origem.c(177,30): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\2ºSemestre\Estrutura de Dados\Treino\TrabalhoPratico\TrabalhoPraticoEDA\TrabalhoPraticoEDA\Origem.c(187,49): warning C4474: 'printf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\2ºSemestre\Estrutura de Dados\Treino\TrabalhoPratico\TrabalhoPraticoEDA\TrabalhoPraticoEDA\Origem.c(187,49): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\2ºSemestre\Estrutura de Dados\Treino\TrabalhoPratico\TrabalhoPraticoEDA\TrabalhoPraticoEDA\Origem.c(191,38): warning C4474: 'printf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\2ºSemestre\Estrutura de Dados\Treino\TrabalhoPratico\TrabalhoPraticoEDA\TrabalhoPraticoEDA\Origem.c(191,38): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+  TrabalhoPraticoEDA.vcxproj -> C:\2ºSemestre\Estrutura de Dados\Treino\TrabalhoPratico\TrabalhoPraticoEDA\x64\Debug\TrabalhoPraticoEDA.exe
