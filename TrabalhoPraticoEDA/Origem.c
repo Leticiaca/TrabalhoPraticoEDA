@@ -245,21 +245,69 @@ int menuJobs()
 	scanf("%d", &op);
 	return (op);
 }
-
 void MaximumTime(Operation* jobs)
 {
+	Operation* auxjob;
+	auxjob = jobs;
+	int maximo = 0;
 
+	while (jobs != NULL) {
 
+		if (auxjob->time > maximo) {
+
+			maximo = auxjob->time;
+			auxjob = auxjob->next;
+
+		}
+
+	}
+	printf("O Valor Maximo da Operação %d", maximo);
 
 }
 void MinimumTime(Operation* jobs)
 {
+
+	Operation* auxjob;
+	auxjob = jobs;
+	int minimo = auxjob->time;
+
+	while (jobs != NULL) {
+
+		if (auxjob->time < minimo) {
+
+			minimo = auxjob->time;
+			auxjob = auxjob->next;
+
+
+
+
+
+		}
+
+	}
+	printf("O Valor dsadas da Operação %d", minimo);
 
 
 }
 void AverageTime(Operation* jobs)
 {
 
+	Operation* auxjob;
+	auxjob = jobs;
+	int media = 0;
+	int contador=0;
+
+	while (jobs != NULL) {
+
+		media = media + auxjob->time;
+		contador++;
+
+
+	}
+
+	media = media / contador;
+
+	printf("O Valor Media da Operação %d", media);
 
 }
 
